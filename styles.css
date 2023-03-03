@@ -4,10 +4,27 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-image: url(/imagens/league-of-legends-lol-world-championship-poro-wallpaper-1024x576_44.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  height: 680px;
+}
+
 main {
   display: flex;
   justify-content: center;
   margin-left: -50px;
+}
+
+.login {
+  background-color: white;
+  width: 140;
+  position: absolute;
+  height: 679px;
+  border: 8px solid white;
+  box-shadow: 1px 1px 7px black;
 }
 
 .div-logo {
@@ -26,8 +43,8 @@ main {
 }
 
 .wallpaper img {
-  width: 73.6vw;
-  height: 99.2vh;
+  width: 77.3vw;
+  height: 100vh;
 }
 
 .div-title {
